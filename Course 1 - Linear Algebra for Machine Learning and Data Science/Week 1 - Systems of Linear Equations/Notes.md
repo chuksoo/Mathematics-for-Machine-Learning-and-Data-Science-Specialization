@@ -37,7 +37,7 @@ The difference of the first two rows equals the third row i.e., Row3 depends on 
 
 $\therefore$ the rows are linearly dependent. The matrix is singular, and the rows are linearly dependent. 
 
-Row1 - Row2 = Row3 &ensp; **Dependent (singular)** 
+Row1 - Row2 = Row3 ==> &ensp; **Dependent (singular)** 
 
 
 Consider the matrix below:
@@ -48,7 +48,7 @@ $$Matrix~B = \begin{bmatrix}
 3 & 2 & 3
 \end{bmatrix}$$
 ```
-3Row1 + 2Row2 = Row3 &ensp; **Dependent (singular)**
+3Row1 + 2Row2 = Row3 ==> &ensp; **Dependent (singular)**
 
 
 Consider the matrix below:
@@ -59,9 +59,9 @@ $$Matrix~ C = \begin{bmatrix}
 0 & 0 & 3
 \end{bmatrix}$$
 ```
-No relations &ensp; **Independent (Non-singular)**
+No relations ==> &ensp; **Independent (Non-singular)**
 
-The determinant of a three-by-three matrix is:
+The determinant of a 3x3 matrix is:
 ```math
 $$det(A) = 
 det \begin{bmatrix}
