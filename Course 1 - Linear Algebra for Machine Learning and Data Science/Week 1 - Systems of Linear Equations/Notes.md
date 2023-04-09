@@ -6,7 +6,7 @@ $$A = \begin{bmatrix}
 -1 & 3
 \end{bmatrix}$$
 ```
-The determinant is $(5)(3) - (-1)(1) = 15 - -1 = 16$. (Non-singular)
+The determinant is $(5)(3) - (-1)(1) = 15 - -1 = 16$. (Non-singular) \
 For a matrix 
 ```math
 $$B = \begin{bmatrix}
