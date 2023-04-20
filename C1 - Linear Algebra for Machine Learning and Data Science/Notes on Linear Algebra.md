@@ -78,3 +78,13 @@ a.det\begin{bmatrix}e & f \\
      \end{bmatrix}                       
 $$
 ```
+
+# Solving systems of three equations by hand
+Solve this system of equation using elimination
+```math
+\begin{align}
+4a-3b+c &= -10 \quad (1)\\
+2a+b+3c &= 0 \quad (2)\\
+-a + 2b -5c &= 17 \quad (3)
+\end{align}
+```
