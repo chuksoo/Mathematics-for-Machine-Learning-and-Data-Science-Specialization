@@ -88,3 +88,51 @@ Solve this system of equation using elimination
 -a + 2b -5c &= 17 \quad (3)
 \end{align}
 ```
+Multiply equation (2) by 2 and subtract from equation (1)
+
+```math
+\begin{align}
+4a-3b+c &= -10 \qquad \xrightarrow{\text{}}& 4a-3b+c &= -10\\ 
+2a+b+3c &= 0 \quad \xrightarrow{\text{multiply (2)}}& 4a+2b+6c &= 0\\
+\therefore -5b-5c &= -10 \quad (4)
+\end{align}
+```
+Select equation (2) and equation (3) and eliminate the same variable by multiplying equation 
+(3) by 2 and add to equation (2)
+```math
+\begin{align}
+2a+b+3c &= 0 \qquad \xrightarrow{\text{}}& 2a+b+3c &= 0\\ 
+-a + 2b -5c &= 17 \quad \xrightarrow{\text{multiply (2)}}& -2a+4b-10c &= 34\\
+\therefore 5b-7c &= 34 \quad (5)
+\end{align}
+```
+Solving the system of equations created by equation (4) and (5) by adding equation (4) and (5),
+```math
+\begin{align}
+-5b-5c &= -10 \\ 
+(+) \quad 5b-7c &= 34 \\
+\implies -12c &= 24 \quad (5) \\
+\therefore c = -2
+\end{align}
+```
+From equation (4)
+```math
+\begin{align}
+-5b-5c &= -10 \\ 
+-5b &= -10+5c \\
+\implies b &= 2 - c \\
+\therefore b = 4
+\end{align}
+```
+Substituting the values of b and c in equation (2)
+```math
+\begin{align}
+2a+b+3c &= 0 \\ 
+2a &= -b-3c = -(4)-3(-2) \\
+\implies 2a &= 2 \\
+\therefore a = 1
+\end{align}
+```
+The solution is $a = 1$, $b = 4$, $c = -2$.
+
+# The Rank of a Matrix
