@@ -134,3 +134,5 @@ Substituting the values of b and c in equation (2)
 \end{align}
 ```
 The solution is $a = 1$, $b = 4$, $c = -2$.
+
+# The Rank of a Matrix
