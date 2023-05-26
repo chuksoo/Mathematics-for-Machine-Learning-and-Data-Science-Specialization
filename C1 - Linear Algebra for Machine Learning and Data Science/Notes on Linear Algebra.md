@@ -180,4 +180,8 @@ $$\begin{align*}
 ```
 The final matrix (in row echelon form) has two non-zero rows and thus the rank of matrix A is 2.
 
+# Vector Algebra
 
+We can find the size of a vector with coordinates point a,b using the L1 norm and L2 norm. L1-norm is the sum of the absolute values of a and b. The L2-norm is the square root of the sum of the squares of the coordinates.i.e.,
+$$L1-norm = |(a, b)|\_1 = |a| + |b|$$ 
+$$L2-norm = |(a, b)|\_2 = \sqrt{a\^2 + b\^2}$$
