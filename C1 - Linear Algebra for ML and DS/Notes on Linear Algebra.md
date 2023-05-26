@@ -185,3 +185,6 @@ The final matrix (in row echelon form) has two non-zero rows and thus the rank o
 We can find the size of a vector with coordinates point a,b using the L1 norm and L2 norm. L1-norm is the sum of the absolute values of a and b. The L2-norm is the square root of the sum of the squares of the coordinates.i.e.,
 $$L1-norm = |(a, b)|\_1 = |a| + |b|$$ 
 $$L2-norm = |(a, b)|\_2 = \sqrt{a\^2 + b\^2}$$
+The **dot product** (or **scalar product**) is an algebraic operation that takes two vectors $x$ and $y$ and returns a single scalar. The dot product can be represented with a dot operator $x\cdot y$ and defined as:
+
+$$x\cdot y = \sum_{i=1}^{n} x_iy_i = x_1y_1+x_2y_2+\ldots+x_ny_n \tag{1}$$
