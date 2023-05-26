@@ -136,3 +136,48 @@ Substituting the values of b and c in equation (2)
 The solution is $a = 1$, $b = 4$, $c = -2$.
 
 # The Rank of a Matrix
+The Rank of a matrix is the maximal number of linearly independent columns of A. This, in turn, is identical to the dimension of the vector space spanned by its rows. We can find the rank using reducing to its row echelon form. Consider the matrix A below:
+```math
+$$A = \begin{bmatrix}
+1 & 2 & 1 \\
+-2 & -3 & 1 \\
+3 & 5 & 0
+\end{bmatrix}$$
+```
+We can put this in reduced row-echelon form by using the following elementary row operations:
+```math
+$$\begin{align*}
+\begin{bmatrix}
+1 & 2 & 1 \\
+-2 & -3 & 1 \\
+3 & 5 & 0
+\end{bmatrix} 
+&\xrightarrow{\text{2$R_1+R_2 \to R_2$}}
+\begin{bmatrix}
+1 & 2 & 1 \\
+0 & 1 & 3 \\
+3 & 5 & 0
+\end{bmatrix} 
+&\xrightarrow{\text{-3$R_1+R_3 \to R_3$}}
+\begin{bmatrix}
+1 & 2 & 1 \\
+0 & 1 & 3 \\
+0 & -1 & -3
+\end{bmatrix} \\
+&\xrightarrow{\text{$R_2+R_3 \to R_3$}}
+\begin{bmatrix}
+1 & 2 & 1 \\
+0 & 1 & 3 \\
+0 & 0 & 0
+\end{bmatrix} 
+&\xrightarrow{\text{-2$R_2+R_1 \to R_1$}}
+\begin{bmatrix}
+1 & 0 & 5 \\
+0 & 1 & 3 \\
+0 & 0 & 0
+\end{bmatrix} 
+\end{align*}$$
+```
+The final matrix (in row echelon form) has two non-zero rows and thus the rank of matrix A is 2.
+
+
