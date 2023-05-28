@@ -187,7 +187,7 @@ $$L1-norm = |(a, b)|\_1 = |a| + |b|$$
 $$L2-norm = |(a, b)|\_2 = \sqrt{a\^2 + b\^2}$$
 The **dot product** (or **scalar product**) is an algebraic operation that takes two vectors $x$ and $y$ and returns a single scalar. The dot product can be represented with a dot operator $x\cdot y$ and defined as:
 
-$$x\cdot y = \sum_{i=1}^{n} x_iy_i = x_1y_1+x_2y_2+\ldots+x_ny_n \tag{1}$$
+$$x\cdot y = \sum_{i=1}^{n} x_iy_i = x_1y_1+x_2y_2+\ldots+x_ny_n$$
 
 # Eigenvalues and Eigenvectors
 Eigenvalues are any number such that a given matrix minus that number times the identity matrix has zero determinant. Eigenvalues are a special set of scalars associated with a linear system of equations (i.e., a matrix equation) that are sometimes also known as characteristic roots or characteristic values.
