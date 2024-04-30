@@ -27,7 +27,7 @@ The loss function is a measurable way to gauge the performance and accuracy of a
 
 The resulting value, the loss, reflects the accuracy of the model's predictions. During training, a learning algorithm such as the backpropagation algorithm uses the gradient of the loss function with respect to the model's parameters to adjust these parameters and minimize the loss, effectively improving the model's performance on the dataset.
 
-![Loss function](https://github.com/chuksoo/Mathematics-for-Machine-Learning-and-Data-Science-Specialization/blob/main/Images/loss function.png)
+![Loss function](https://github.com/chuksoo/Mathematics-for-Machine-Learning-and-Data-Science-Specialization/blob/main/Images/loss_function.png)
 
 <h3>Gradient Descent</h3>
 
@@ -47,7 +47,7 @@ Find $w_1$, $w_2$ and $b$ that gives $\hat{y}$ with the least error
 
 In terms of Hessian, if the second derivative is positive, we have a convex function. If the second derivative is negative, we have a concave function.
 
-![Concave versus Convex](https://github.com/chuksoo/Mathematics-for-Machine-Learning-and-Data-Science-Specialization/blob/main/Images/concave vs convex.png)
+![Concave versus Convex](https://github.com/chuksoo/Mathematics-for-Machine-Learning-and-Data-Science-Specialization/blob/main/Images/concave_vs_convex.png)
 
 ![Concave Point](https://github.com/chuksoo/Mathematics-for-Machine-Learning-and-Data-Science-Specialization/blob/main/Images/concave.png)
 
