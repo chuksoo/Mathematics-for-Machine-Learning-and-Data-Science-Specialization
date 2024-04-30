@@ -45,3 +45,14 @@ Find $w_1$, $w_2$ and $b$ that gives $\hat{y}$ with the least error
 \end{align}
 ```
 
+In terms of Hessian, if the second derivative is positive, we have a convex function. If the second derivative is negative, we have a concave function.
+
+![Concave versus Convex](https://github.com/chuksoo/Mathematics-for-Machine-Learning-and-Data-Science-Specialization/blob/main/Images/concave vs convex.png)
+
+![Concave Point](https://github.com/chuksoo/Mathematics-for-Machine-Learning-and-Data-Science-Specialization/blob/main/Images/concave.png)
+
+![Convex Point](https://github.com/chuksoo/Mathematics-for-Machine-Learning-and-Data-Science-Specialization/blob/main/Images/convex.png)
+
+![Saddle Point](https://github.com/chuksoo/Mathematics-for-Machine-Learning-and-Data-Science-Specialization/blob/main/Images/saddle.png)
+
+![Summary](https://github.com/chuksoo/Mathematics-for-Machine-Learning-and-Data-Science-Specialization/blob/main/Images/summary.png)
