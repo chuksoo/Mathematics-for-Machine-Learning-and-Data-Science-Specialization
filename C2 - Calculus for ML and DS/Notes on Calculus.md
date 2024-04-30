@@ -12,6 +12,7 @@ What happens in the summation step is that each of these features, $x_1$ and $x_
 important it is for the output. So for example, if the size of a house is way more important to predict the price of a house than the number of rooms, then this will have a higher weight than the number of rooms. So let's call the corresponding weights $w_1$ and $w_2$. And to combine these weights and the input, we simply add them. So we multiply $w_1$ the weight times $x_1$ the feature and we add $w_2$ times $x_2$. We then add the bias term to the summation function to get the output. 
 
 In this model there's no activation function. The output is simply:
+
 \begin{equation}
     \hat{y} = w_1*x_1 + w_2*x_2 + b 
 \end{equation}
