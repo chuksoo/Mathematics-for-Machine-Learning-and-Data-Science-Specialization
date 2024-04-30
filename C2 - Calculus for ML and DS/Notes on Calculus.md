@@ -22,7 +22,26 @@ In this model, there's no activation function. The output is simply:
 where $\hat{y}$ is the predicted price of the house. The goal is to find the best $w_1$, $w_2$ and $b$ - the weights and bias respectively that will optimize predictions. i.e., the ones that will, when we plug in $x_1$ and $x_2$ give us the closest to the actual price for the entire data set. To do this, we minimize the error which is basically how far we are from the price of the house. The loss function is a little function that's going to tell us, how far are we from predicting the prices well.
 
 <h3>Loss function</h3>
-The loss function is a measurable way to gauge the performance and accuracy of a machine learning model. The loss function, also referred to as the error function, is a crucial component in machine learning that quantifies the difference between the predicted outputs of a machine learning algorithm and the actual target values. In a prediction problem for instance, the loss function evaluates a neural network prediction based on a training sample from the training dataset and quantifies the gap or the error margin of the house price predicted by the network to the actual price. 
+
+The loss function is a measurable way to gauge the performance and accuracy of a machine learning model. The loss function, also referred to as the error function, is a crucial component in machine learning that quantifies the difference between the predicted outputs of a machine learning algorithm and the actual target values. In a prediction problem for instance, the loss function evaluates a neural network prediction based on a training sample from the training dataset and quantifies the gap or the error margin of the house price predicted by the network to the actual price.
 
 The resulting value, the loss, reflects the accuracy of the model's predictions. During training, a learning algorithm such as the backpropagation algorithm uses the gradient of the loss function with respect to the model's parameters to adjust these parameters and minimize the loss, effectively improving the model's performance on the dataset.
+
+![Loss function](https://github.com/chuksoo/Mathematics-for-Machine-Learning-and-Data-Science-Specialization/blob/main/Images/loss function.png)
+
+<h3>Gradient Descent</h3>
+
+Given a prediction function and some loss function, to find the $w_1$, $w_2$ and $b$ that gives $\hat{y}$ with the least error, we need gradient descent.
+*Prediction Function:* $\hat{y} = w_1*x_1 + w_2*x_2 + b $ 
+*Loss Function:* $L(y, \hat{y}) = \frac{1}{2}(y-\hat{y})**2$
+*Main Goal:* 
+Find $w_1$, $w_2$ and $b$ that gives $\hat{y}$ with the least error
+*To find optimal values for:* $w_1$, $w_2$ and $b$, we need gradient descent.
+```math
+\begin{align}
+    w_1 = w_1 - \alpha*\frac{partial L}{partial w_1} \\
+    w_2 = w_2 - \alpha*\frac{partial L}{partial w_2} \\
+    b = b - \alpha*\frac{partial L}{partial b}
+\end{align}
+```
 
