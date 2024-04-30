@@ -6,6 +6,9 @@ We can model a regression problem to predict the price of a house given the size
 
 The inputs to the perceptron here are going to be $x_1$ and $x_2$ corresponding to the size of a house and a number of rooms. If there were 100 inputs, it would simply be 100 notes $x_1$ all the way to $x_100$. We start with the inputs and then they plug into a summation function. Out of the summation function comes the output $\hat{y}$ and that's going to be what we predict to be the the price of the house.
 
+<img src="Images/reg_with_perceptron.png" alt="Regression with a Perceptron" width="500" height="600">
+
+
 ![Regression with a Perceptron](https://github.com/chuksoo/Mathematics-for-Machine-Learning-and-Data-Science-Specialization/blob/main/Images/reg_with_perceptron.png)
 
 What happens in the summation step is that each of these features, $x_1$ and $x_2$ is multiplied by a corresponding weight to determine how
