@@ -35,13 +35,13 @@ Given a prediction function and some loss function, to find the $w_1$, $w_2$ and
 *Prediction Function:* 
 ```math
 \begin{align}
-math $\hat{y} = w_1*x_1 + w_2*x_2 + b 
+\hat{y} = w_1*x_1 + w_2*x_2 + b 
 \end{align}
 ```
 
 *Loss Function:* 
 ```math
-\begin{align}L(y, \hat{y}) = \frac{1}{2}(y-\hat{y})**2
+\begin{align}L(y, \hat{y}) = \frac{1}{2}(y-\hat{y})^2
 \end{align}
 ```
 
