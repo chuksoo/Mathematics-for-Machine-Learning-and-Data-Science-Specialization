@@ -32,17 +32,28 @@ The resulting value, the loss, reflects the accuracy of the model's predictions.
 <h3>Gradient Descent</h3>
 
 Given a prediction function and some loss function, to find the $w_1$, $w_2$ and $b$ that gives $\hat{y}$ with the least error, we need gradient descent.
-*Prediction Function:* ```math $\hat{y} = w_1*x_1 + w_2*x_2 + b $ ```
+*Prediction Function:* 
+```math
+\begin{align}
+math $\hat{y} = w_1*x_1 + w_2*x_2 + b 
+\end{align}
+```
 
-*Loss Function:* ```math $L(y, \hat{y}) = \frac{1}{2}(y-\hat{y})**2$ ```
+*Loss Function:* 
+```math
+\begin{align}L(y, \hat{y}) = \frac{1}{2}(y-\hat{y})**2
+\end{align}
+```
+
 *Main Goal:* 
 Find $w_1$, $w_2$ and $b$ that gives $\hat{y}$ with the least error
+
 *To find optimal values for:* $w_1$, $w_2$ and $b$, we need gradient descent.
 ```math
 \begin{align}
-    w_1 = w_1 - \alpha*\frac{partial L}{partial w_1} \\
-    w_2 = w_2 - \alpha*\frac{partial L}{partial w_2} \\
-    b = b - \alpha*\frac{partial L}{partial b}
+    w_1 = w_1 - \alpha*\frac{\partial L}{\partial w_1} \\
+    w_2 = w_2 - \alpha*\frac{\partial L}{\partial w_2} \\
+    b = b - \alpha*\frac{\partial L}{\partial b}
 \end{align}
 ```
 
