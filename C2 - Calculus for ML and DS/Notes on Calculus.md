@@ -32,8 +32,9 @@ The resulting value, the loss, reflects the accuracy of the model's predictions.
 <h3>Gradient Descent</h3>
 
 Given a prediction function and some loss function, to find the $w_1$, $w_2$ and $b$ that gives $\hat{y}$ with the least error, we need gradient descent.
-*Prediction Function:* $\hat{y} = w_1*x_1 + w_2*x_2 + b $ 
-*Loss Function:* $L(y, \hat{y}) = \frac{1}{2}(y-\hat{y})**2$
+*Prediction Function:* ```math $\hat{y} = w_1*x_1 + w_2*x_2 + b $ ```
+
+*Loss Function:* ```math $L(y, \hat{y}) = \frac{1}{2}(y-\hat{y})**2$ ```
 *Main Goal:* 
 Find $w_1$, $w_2$ and $b$ that gives $\hat{y}$ with the least error
 *To find optimal values for:* $w_1$, $w_2$ and $b$, we need gradient descent.
